@@ -49,6 +49,4 @@ public class AppConfig implements WebMvcConfigurer {
                 new JpaTransactionManager(entityManagerFactory);
         return jpaTransactionManager;
     }
-
-
 }
